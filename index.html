@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>HTML Academy: Седона</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
     <body>
     	<header class="main-header">
@@ -22,73 +23,89 @@
     					</li>
     				</ul>
     			</nav>
-    			<img class="index-logo" src="img/index-logo" alt="Логотип Sedona">
+    			<img class="index-logo" src="img/logo.svg">
+    			<img class="index-logo" src="img/logo.png" alt="Логотип Sedona">
     	</header>
     	<main class="container">
-    			<img src="img/index-img" alt="Welcome to Sedona">
-    			<h4 class="description">Седона - небольшой городок в аризоне, заслуживающий большего!</h4>
-    			<p class="description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+    		<div class="description">
+    			<img src="img/backgroung.jpg" alt="Sedona" width="188" height="45">
+    			<img src="img/welcome.png" alt="Welcome to Sedona" width="188" height="45">
+    			<img src="img/gorgeous.png" alt="to the gorgeous" width="176" height="30">
+    			<img src="img/sedona.png" alt="Sedona" width="458" height="78">
+    			<img src="img/GrandCanyon_sucks.png" alt="Because the Grand GrandCanyon sucks" width="296" height="80">
+    			<h4>Седона - небольшой городок в аризоне, заслуживающий большего!</h4>
+    			<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+    		</div>	
     		<div class="truetown">
-    			<img src="#" alt="Настоящий городок">	
-    			<b>Настоящий городок</b>
+    			<img src="img/truetown.jpg" alt="Настоящий городок" width="800" height="256">	
+    			<h4>Настоящий городок</h4>
     			<p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
     		</div>
     		<section class="features">
     			<div class="features-item">
-    				<img src="#" alt="Жилье"><br>
-    				<b class="features-name">Жилье</b>
+    				<img src="img/house.png" alt="Жилье">
+    				<h4 class="features-name">Жилье</h4>
     				<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
     			</div>
     			<div class="features-item">
-    				<img src="#" alt="Еда"><br>
-    				<b class="features-name">Еда</b>
+    				<img src="img/food.png" alt="Еда">
+    				<h4 class="features-name">Еда</h4>
     				<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
     			</div>
     			<div class="features-item">
-    				<img src="#" alt="Сувениры"><br>
-    				<b class="features-name">Сувениры</b>
+    				<img src="img/present.png" alt="Сувениры">
+    				<h4 class="features-name">Сувениры</h4>
     				<p>Не только китайского, но и местного производства!</p>
     			</div>
     		</section>
     		<div class="brige">
-    				<img class="brige-image" src="#" alt="Мост дьявола">
-    				<b class="brige-text">Там есть мост дьявола</b>
+    				<img class="brige-image" src="img/brige.jpg" alt="Мост дьявола">
+    				<h4 class="brige-text">Там есть мост дьявола</h4>
     				<p class="brige-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
     		</div>  
     		<section class="features">
     			<div class="features-item">
-    				<b class="features-name">Небольшая площадь</b>
-    				<pВсе достопримеча-<br>тельности находятся очень близко</p>
+    				<h4 class="features-name">Небольшая площадь</h4>
+    				<p>Все достопримечательности находятся очень близко</p>
     			</div>
     			<div class="features-item">
-    				<b class="features-name">Красивая дорога</b>
+    				<h4 class="features-name">Красивая дорога</h4>
     				<p>Ехать в седону из лас-вегаса совсем не скучно!</p>
     			</div>
     			<div class="features-item">
-    				<b class="features-name">Мало туристов</b>
+    				<h4 class="features-name">Мало туристов</h4>
     				<p>Большинство едет в гранд каньон и толпится там</p>
     			</div>	
     		</section>		
     				<h3 class="description">Заинтересовались?</h3>
     				<p class="description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
     		<section class="form">
-    			<span class="search">Поиск гостиницы в седоне</span>
-
+    			<h4 class="search">Поиск гостиницы в седоне</h4>
+    			<p>Дата заезда</p>
+    			<input type="date" step="1" value="24 апреля 2017">
+    			<p>Дата выезда</p>
+    			<input type="date" step="1" value="4 июля 2017">
+    			<p>
+	    			<span>Взрослые</span>
+	    			<input type="text" step="1" value="2">
+	    			<span>Дети</span>
+	    			<input type="text" step="1" value="1"> 
+    			</p>  			   
     		</section>	
     		<footer>
     			<p class="tag">#visitsedona</p>
     			<section class="networks">
     				<a class="twitter" href="#">
-    					<img src="twitter.svg" alt="twitter">
+    					<img src="img/twitter.png" alt="twitter">
     				</a>
     				<a class="facebook" href="#">
-    					<img src="facebook.svg" alt="facebook">
+    					<img src="img/facebook.png" alt="facebook">
     				</a>
     				<a class="youtube" href="#">
-    					<img src="youtube.svg" alt="youtube">
+    					<img src="img/youtube.png" alt="youtube">
     				</a>
     			</section>	
-    			<img src="websiteby" alt="By HTML Academy">
+    			<img src="img/html_academy.png" alt="By HTML Academy">
     		</footer>
     	</main>
 	</body>
